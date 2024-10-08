@@ -1,1 +1,2 @@
 # Advanced-Housing-Regression
+Using pandas and sklearn to predict housing prices in the state of Iowa, the Model I used was RandomForestRegressor from the Sklearn Libary, Data was both categorical and numeric. As for the Numeric Data I crnuched it using min-max function. As for categoircal data I used hot one encoding as data was not ordinal. Overall After normalization there was 239 variables, which most where 0 or 1 from hot one encoding. Also Tried using a Sequential Model but Tree Model Seemed to work alot better for predicting categorical data.
